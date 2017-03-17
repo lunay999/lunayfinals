@@ -14,12 +14,6 @@ app.get('/', function(req, res){
 app.get('/app', function(req, res){
   res.sendFile(path.join(__dirname, 'views/app.html'));
 });
-app.get('/main', function(req, res){
-  res.sendFile(path.join(__dirname, 'views/main.html'));
-});
-app.get('/app', function(req, res){
-  res.sendFile(path.join(__dirname, 'views/app.html'));
-});
 app.get('*', function(req, res){
   res.status(404).sendFile(path.join(__dirname, 'views/404.html'));
 });
