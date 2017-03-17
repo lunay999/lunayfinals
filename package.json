@@ -1,5 +1,5 @@
 {
-  "name": "lunay",
+  "name": "lunafinals",
   "version": "1.0.0",
   "description": "<!DOCTYPE html>\r <html>\r <head>\r \t<title>Miko Finals</title>\r \t<link rel=\"stylesheet\" type=\"text/css\" href=\"app.css\">\r </head>\r <body>\r <div id= \"main.html\"></div>\r <script type=\"text/javascript\" src=\"app.js\"></script>\r </body>\r </html>",
   "main": "server.js",
