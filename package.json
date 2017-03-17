@@ -1,0 +1,27 @@
+{
+  "name": "lunay",
+  "version": "1.0.0",
+  "description": "<!DOCTYPE html>\r <html>\r <head>\r \t<title>Miko Finals</title>\r \t<link rel=\"stylesheet\" type=\"text/css\" href=\"app.css\">\r </head>\r <body>\r <div id= \"main.html\"></div>\r <script type=\"text/javascript\" src=\"app.js\"></script>\r </body>\r </html>",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lunay999/lunayfinals.git"
+  },
+  "author": "miko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lunay999/lunayfinals/issues"
+  },
+  "homepage": "https://github.com/lunay999/lunayfinals#readme",
+  "keywords": [
+    "deploy"
+  ]
+}
