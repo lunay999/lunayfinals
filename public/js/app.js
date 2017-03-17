@@ -8,7 +8,7 @@ $('#app').html(`
 
    <div class="loaderbg">
 
-    <img class="loaderimg" src="loader.gif">
+    <img class="loaderimg" src="img/loader.gif">
 
 </div>
 
