@@ -20,7 +20,7 @@ setTimeout(function(){
 function x(){
 $.ajax({
   
-  url: "http://www.omdbapi.com/?t=Pok%C3%A9mon+the+first+movie"
+  url: "https://www.omdbapi.com/?t=Pok%C3%A9mon+the+first+movie"
 
 
 }).done(function(res){
@@ -48,7 +48,7 @@ $.ajax({
 
 $.ajax({
   
-  url: "http://www.omdbapi.com/?t=Pok%C3%A9mon+the+movie+2000"
+  url: "https://www.omdbapi.com/?t=Pok%C3%A9mon+the+movie+2000"
 
 
 }).done(function(res){
@@ -77,7 +77,7 @@ $.ajax({
 
 $.ajax({
   
-  url: "http://www.omdbapi.com/?t=Pok%C3%A9mon+the+movie+"
+  url: "https://www.omdbapi.com/?t=Pok%C3%A9mon+the+movie+"
 
 
 }).done(function(res){
@@ -106,7 +106,7 @@ $.ajax({
 
 $.ajax({
   
-  url: "http://www.omdbapi.com/?t=Pok%C3%A9mon+4ever"
+  url: "https://www.omdbapi.com/?t=Pok%C3%A9mon+4ever"
 
 
 }).done(function(res){
@@ -135,7 +135,7 @@ $.ajax({
 
 $.ajax({
   
-  url: "http://www.omdbapi.com/?t=Pok%C3%A9mon+heroes"
+  url: "https://www.omdbapi.com/?t=Pok%C3%A9mon+heroes"
 
 
 }).done(function(res){
@@ -159,4 +159,3 @@ $.ajax({
 }); 
 }
 
-  
