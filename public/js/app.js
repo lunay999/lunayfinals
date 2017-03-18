@@ -29,7 +29,7 @@ $.ajax({
 
 
    ` 
-  <center>
+  
 
   <h1>${res.Title}</h1>
 
@@ -38,7 +38,9 @@ $.ajax({
   <div class="horizontal">
   <div class="col-sm-6 col-md-4">
   <div  style="background-color: black"; class="thumbnail"> 
-  <a href=""><img src="${res.Poster}" /></a>
+  <img src="${res.Poster}" />
+  </div>
+
   `;
 
 
@@ -59,14 +61,20 @@ $.ajax({
   let html = 
   
   `
-  <center> 
+   
 
 
   <h1>${res.Title}</h1>
 
   <h3>${res.Plot}</h3>
 
+  <div class="horizontal">
+  <div class="col-sm-6 col-md-4">
+  <div  style="background-color: black"; class="thumbnail">
   <img src="${res.Poster}" />
+  </div>
+
+
   `;
 
 
@@ -88,13 +96,19 @@ $.ajax({
   let html = 
   ` 
 
-  <center> 
+  
 
   <h1>${res.Title}</h1></font>
 
   <h3>${res.Plot}</h3>
 
+  <div class="horizontal">
+  <div class="col-sm-6 col-md-4">
+  <div  style="background-color: black"; class="thumbnail">
   <img src="${res.Poster}" />
+
+  </div>
+
   `;
 
 
@@ -118,13 +132,17 @@ $.ajax({
 
    ` 
 
-  <center> 
+  
 
   <h1>${res.Title}</h1>
 
   <h3>${res.Plot}</h3>
-
+<div class="horizontal">
+  <div class="col-sm-6 col-md-4">
+    <div  style="background-color: black"; class="thumbnail">
   <img src="${res.Poster}" />
+
+  </div>
   `;
 
 
@@ -147,13 +165,16 @@ $.ajax({
   
 
   ` 
-  <center> 
+   
 
   <h1>${res.Title}</h1>
 
   <h3>${res.Plot}</h3>
-
+<div class="horizontal">
+  <div class="col-sm-6 col-md-4">
+    <div  style="background-color: black"; class="thumbnail">
   <img src="${res.Poster}" />
+  </div>
   `;
 
 
