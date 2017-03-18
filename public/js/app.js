@@ -88,7 +88,7 @@ $.ajax({
 
 $.ajax({
   
-  url: "https://www.omdbapi.com/?t=Pok%C3%A9mon+the+movie+"
+  url: "https://www.omdbapi.com/?t=Pok%C3%A9mon%3A+Giratina+and+the+Sky+Warrior"
 
 
 }).done(function(res){
