@@ -29,7 +29,7 @@ h3
     margin: 0px;
     padding: 0px;
 }
-
+<style>
 video#headerVideo {
     height: 768px;
     width: 1885px;
@@ -37,3 +37,4 @@ video#headerVideo {
     margin-top: -94px;
     z-index: 10;
 }
+</style>
