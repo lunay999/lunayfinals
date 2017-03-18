@@ -156,6 +156,8 @@ $.ajax({
 
 
   $('#c').html(html);
+}); 
+}
 
   var vid = document.getElementById("bgvid");
 var pauseButton = document.querySelector("#polina button");
@@ -188,6 +190,4 @@ pauseButton.addEventListener("click", function() {
     vid.pause();
     pauseButton.innerHTML = "Paused";
   }
-}); 
-}
-
+  )}
