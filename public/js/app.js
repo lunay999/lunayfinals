@@ -35,7 +35,10 @@ $.ajax({
 
   <h3>${res.Plot}</h3>
 
-  <img src="${res.Poster}" />
+  <div class="horizontal">
+  <div class="col-sm-6 col-md-4">
+  <div  style="background-color: black"; class="thumbnail"> 
+  <a href=""><img src="${res.Poster}" /></a>
   `;
 
 
