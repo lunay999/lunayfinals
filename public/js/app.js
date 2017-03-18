@@ -6,9 +6,9 @@ $('#app').html(`
 
 </div>
 
-   <div class="img/loaderbg">
+   <div class="loaderbg">
 
-    <img class="img/loaderimg" src="img/loader.gif">
+    <img class="loaderimg" src="img/loader.gif">
 
 </div>
 
