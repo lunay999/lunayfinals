@@ -17,6 +17,9 @@ app.get('/app', function(req, res){
 app.get('/miko', function(req, res){
   res.sendFile(path.join(__dirname, 'views/miko.html'));
 });
+app.get('/vid1', function(req, res){
+  res.sendFile(path.join(__dirname, 'views/vid1.html'));
+});
 app.get('*', function(req, res){
   res.status(404).sendFile(path.join(__dirname, 'views/404.html'));
 });
