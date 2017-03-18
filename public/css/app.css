@@ -1,7 +1,6 @@
-body
-{
-  margin: 0;
-  background-color: black;
+ body
+ {
+  cursor: url('includes/images/cursor.cur'), default;
 }
 
 h1
