@@ -30,17 +30,17 @@ $.ajax({
 
    ` 
   
-
+<center>
  <br> <h1>${res.Title}</h1></br>
- <br><h1>${res.Genre}</h1></br>
- <br><h1>${res.Actors}</h1></br>
+ <br><h3>${res.Genre}</h3></br>
+ <br><h3>${res.Actors}</h3></br>
   <h3>${res.Plot}</h3>
 
   <div class="center">
   <div class="col-sm-6 col-md-4">
   <div  style="background-color: black"; class="thumbnail"> 
   <img src="${res.Poster}" />
-  </div>
+  </div></center>
 
   `;
 
@@ -63,18 +63,18 @@ $.ajax({
   
   `
    
-
+<center>
 
   <h1>${res.Title}</h1>
-<br><h1>${res.Genre}</h1></br>
- <br><h1>${res.Actors}</h1></br>
+<br><h3>${res.Genre}</h3></br>
+ <br><h3>${res.Actors}</h3></br>
   <h3>${res.Plot}</h3>
 
   <div class="horizontal">
   <div class="col-sm-6 col-md-4">
   <div  style="background-color: black"; class="thumbnail">
   <img src="${res.Poster}" />
-  </div>
+  </div></center>
 
 
   `;
@@ -98,11 +98,11 @@ $.ajax({
   let html = 
   ` 
 
-  
+  <center>
 
   <h1>${res.Title}</h1></font>
-<br><h1>${res.Genre}</h1></br>
- <br><h1>${res.Actors}</h1></br>
+<br><h3>${res.Genre}</h3></br>
+ <br><h3>${res.Actors}</h3></br>
   <h3>${res.Plot}</h3>
 
   <div class="horizontal">
@@ -110,7 +110,7 @@ $.ajax({
   <div  style="background-color: black"; class="thumbnail">
   <img src="${res.Poster}" />
 
-  </div>
+  </div><center>
 
   `;
 
@@ -135,18 +135,18 @@ $.ajax({
 
    ` 
 
-  
+  <center>
 
   <h1>${res.Title}</h1>
-<br><h1>${res.Genre}</h1></br>
- <br><h1>${res.Actors}</h1></br>
+<br><h3>${res.Genre}</h3></br>
+ <br><h3>${res.Actors}</h3></br>
   <h3>${res.Plot}</h3>
 <div class="horizontal">
   <div class="col-sm-6 col-md-4">
     <div  style="background-color: black"; class="thumbnail">
   <img src="${res.Poster}" />
 
-  </div>
+  </div></center>
   `;
 
 
@@ -170,16 +170,16 @@ $.ajax({
 
   ` 
    
-
+<center>
   <h1>${res.Title}</h1>
-<br><h1>${res.Genre}</h1></br>
- <br><h1>${res.Actors}</h1></br>
+<br><h3>${res.Genre}</h3></br>
+ <br><h3>${res.Actors}</h3></br>
   <h3>${res.Plot}</h3>
 <div class="horizontal">
   <div class="col-sm-6 col-md-4">
     <div  style="background-color: black"; class="thumbnail">
   <img src="${res.Poster}" />
-  </div>
+  </div></center>
   `;
 
 
