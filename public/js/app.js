@@ -32,9 +32,8 @@ $.ajax({
   
 
  <br> <h1>${res.Title}</h1></br>
-<br><h1>Genre:  Adventure, Comedy-drama, Fantasy</h1></br>
-<br><h1>Writer: Takeshi Shudō</h1></br>
-<br><h1>Actors: Veronica Taylor, Jay Goede, Rachael Lillis, Eric Stuart</h1></br>
+ <br><h1>${res.Genre}</h1></br>
+ <br><h1>${res.Actors}</h1></br>
   <h3>${res.Plot}</h3>
 
   <div class="center">
@@ -67,9 +66,8 @@ $.ajax({
 
 
   <h1>${res.Title}</h1>
-<br><h1>Genre:  Adventure, Comedy-drama, Fantasy</h1></br>
-<br><h1>Writer: Takeshi Shudō</h1></br>
-<br><h1>Actors: Veronica Taylor, Jay Goede, Rachael Lillis, Eric Stuart</h1></br>
+<br><h1>${res.Genre}</h1></br>
+ <br><h1>${res.Actors}</h1></br>
   <h3>${res.Plot}</h3>
 
   <div class="horizontal">
@@ -103,7 +101,8 @@ $.ajax({
   
 
   <h1>${res.Title}</h1></font>
-
+<br><h1>${res.Genre}</h1></br>
+ <br><h1>${res.Actors}</h1></br>
   <h3>${res.Plot}</h3>
 
   <div class="horizontal">
@@ -139,7 +138,8 @@ $.ajax({
   
 
   <h1>${res.Title}</h1>
-
+<br><h1>${res.Genre}</h1></br>
+ <br><h1>${res.Actors}</h1></br>
   <h3>${res.Plot}</h3>
 <div class="horizontal">
   <div class="col-sm-6 col-md-4">
@@ -172,7 +172,8 @@ $.ajax({
    
 
   <h1>${res.Title}</h1>
-
+<br><h1>${res.Genre}</h1></br>
+ <br><h1>${res.Actors}</h1></br>
   <h3>${res.Plot}</h3>
 <div class="horizontal">
   <div class="col-sm-6 col-md-4">
