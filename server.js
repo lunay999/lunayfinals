@@ -20,6 +20,12 @@ app.get('/miko', function(req, res){
 app.get('/vid1', function(req, res){
   res.sendFile(path.join(__dirname, 'views/vid1.html'));
 });
+app.get('/vid2', function(req, res){
+  res.sendFile(path.join(__dirname, 'views/vid2.html'));
+});
+app.get('/vid3', function(req, res){
+  res.sendFile(path.join(__dirname, 'views/vid3.html'));
+});
 app.get('*', function(req, res){
   res.status(404).sendFile(path.join(__dirname, 'views/404.html'));
 });
