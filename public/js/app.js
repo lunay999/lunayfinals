@@ -36,9 +36,8 @@ $.ajax({
  <br><h3>${res.Actors}</h3></br>
   <h3>${res.Plot}</h3>
 
-  <div class="center">
   <div class="col-sm-6 col-md-4">
-  <div  style="background-color: black"; class="thumbnail"> 
+  <div style="background-color: black"; class="thumbnail"> 
   <img src="${res.Poster}" />
   </div></center>
 
@@ -69,8 +68,6 @@ $.ajax({
 <br><h3>${res.Genre}</h3></br>
  <br><h3>${res.Actors}</h3></br>
   <h3>${res.Plot}</h3>
-
-  <div class="center">
   <div class="col-sm-6 col-md-4">
   <div  style="background-color: black"; class="thumbnail">
   <img src="${res.Poster}" />
@@ -105,7 +102,6 @@ $.ajax({
  <br><h3>${res.Actors}</h3></br>
   <h3>${res.Plot}</h3>
 
-  <div class="center">
   <div class="col-sm-6 col-md-4">
   <div  style="background-color: black"; class="thumbnail">
   <img src="${res.Poster}" />
@@ -141,7 +137,6 @@ $.ajax({
 <br><h3>${res.Genre}</h3></br>
  <br><h3>${res.Actors}</h3></br>
   <h3>${res.Plot}</h3>
-<div class="center">
   <div class="col-sm-6 col-md-4">
     <div  style="background-color: black"; class="thumbnail">
   <img src="${res.Poster}" />
@@ -175,7 +170,6 @@ $.ajax({
 <br><h3>${res.Genre}</h3></br>
  <br><h3>${res.Actors}</h3></br>
   <h3>${res.Plot}</h3>
-<div class="center">
   <div class="col-sm-6 col-md-4">
     <div  style="background-color: black"; class="thumbnail">
   <img src="${res.Poster}" />
