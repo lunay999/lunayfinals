@@ -30,16 +30,17 @@ $.ajax({
 
    ` 
   
-<center>
+<div style="background-color: black;" class="thumbnail">
  <br> <h1>${res.Title}</h1></br>
  <br><h3>${res.Genre}</h3></br>
  <br><h3>${res.Actors}</h3></br>
   <h3>${res.Plot}</h3>
-
+</div>
   <div class="col-sm-6 col-md-4">
   <div style="background-color: black"; class="thumbnail"> 
+  <div class="left">
   <img src="${res.Poster}" />
-  </div></center>
+  </div>
 
   `;
 
@@ -62,16 +63,17 @@ $.ajax({
   
   `
    
-<center>
-
+<div style="background-color: black;" class="thumbnail">
   <h1>${res.Title}</h1>
 <br><h3>${res.Genre}</h3></br>
  <br><h3>${res.Actors}</h3></br>
   <h3>${res.Plot}</h3>
+  </div>
   <div class="col-sm-6 col-md-4">
   <div  style="background-color: black"; class="thumbnail">
+  <div class="left">
   <img src="${res.Poster}" />
-  </div></center>
+  </div>
 
 
   `;
@@ -95,18 +97,19 @@ $.ajax({
   let html = 
   ` 
 
-  <center>
-
+  
+<div style="background-color: black;" class="thumbnail">
   <h1>${res.Title}</h1></font>
 <br><h3>${res.Genre}</h3></br>
  <br><h3>${res.Actors}</h3></br>
   <h3>${res.Plot}</h3>
-
+</div>
   <div class="col-sm-6 col-md-4">
   <div  style="background-color: black"; class="thumbnail">
+  <div class="left">
   <img src="${res.Poster}" />
 
-  </div><center>
+  </div>
 
   `;
 
@@ -131,17 +134,19 @@ $.ajax({
 
    ` 
 
-  <center>
-
+  
+<div style="background-color: black;" class="thumbnail">
   <h1>${res.Title}</h1>
 <br><h3>${res.Genre}</h3></br>
  <br><h3>${res.Actors}</h3></br>
   <h3>${res.Plot}</h3>
+  </div>
   <div class="col-sm-6 col-md-4">
     <div  style="background-color: black"; class="thumbnail">
+    <div class="left">
   <img src="${res.Poster}" />
 
-  </div></center>
+  </div>
   `;
 
 
@@ -165,15 +170,17 @@ $.ajax({
 
   ` 
    
-<center>
+<div style="background-color: black;" class="thumbnail">
   <h1>${res.Title}</h1>
 <br><h3>${res.Genre}</h3></br>
  <br><h3>${res.Actors}</h3></br>
   <h3>${res.Plot}</h3>
+  </div>
   <div class="col-sm-6 col-md-4">
     <div  style="background-color: black"; class="thumbnail">
+    <div class="left">
   <img src="${res.Poster}" />
-  </div></center>
+  </div>
   `;
 
 
