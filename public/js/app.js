@@ -34,10 +34,10 @@ $.ajax({
  <br> <h1>${res.Title}</h1></br>
 <br><h1>Genre:  Adventure, Comedy-drama, Fantasy</h1></br>
 <br><h1>Writer: Takeshi Shudō</h1></br>
-<br><h1>Writer: Veronica Taylor, Jay Goede, Rachael Lillis, Eric Stuart</h1></br>
+<br><h1>Actors: Veronica Taylor, Jay Goede, Rachael Lillis, Eric Stuart</h1></br>
   <h3>${res.Plot}</h3>
 
-  <div class="horizontal">
+  <div class="center">
   <div class="col-sm-6 col-md-4">
   <div  style="background-color: black"; class="thumbnail"> 
   <img src="${res.Poster}" />
@@ -59,7 +59,7 @@ $.ajax({
 
 
 }).done(function(res){
-  console.log(secondary);
+  console.log(res);
   let html = 
   
   `
@@ -67,7 +67,9 @@ $.ajax({
 
 
   <h1>${res.Title}</h1>
-
+<br><h1>Genre:  Adventure, Comedy-drama, Fantasy</h1></br>
+<br><h1>Writer: Takeshi Shudō</h1></br>
+<br><h1>Actors: Veronica Taylor, Jay Goede, Rachael Lillis, Eric Stuart</h1></br>
   <h3>${res.Plot}</h3>
 
   <div class="horizontal">
@@ -94,7 +96,7 @@ $.ajax({
 
 
 }).done(function(res){
-  console.log(a);
+  console.log(res);
   let html = 
   ` 
 
@@ -129,7 +131,7 @@ $.ajax({
 
 
 }).done(function(res){
-  console.log(b);
+  console.log(res);
   let html =
 
    ` 
@@ -162,7 +164,7 @@ $.ajax({
 
 
 }).done(function(res){
-  console.log(c);
+  console.log(res);
   let html = 
   
 
