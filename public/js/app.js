@@ -24,7 +24,7 @@ $.ajax({
 
 
 }).done(function(res){
-  console.log(res);
+  console.log(1);
   let html =
 
 
@@ -45,7 +45,7 @@ $.ajax({
 
 
 
-  $('#app').html(html);
+  $('#1').html(html);
 
 
 });
