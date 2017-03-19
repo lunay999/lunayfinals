@@ -24,7 +24,7 @@ $.ajax({
 
 
 }).done(function(res){
-  console.log(gg);
+  console.log(res);
   let html =
 
 
